@@ -22,3 +22,22 @@ if (convertLogin === "admin" ) {
 } else {
     alert("I don't know you!")
 }
+
+// Switch case statements
+
+let browser = prompt('What browser do you use?');
+browserName = browser.toLowerCase();
+
+switch (browser) {
+    case 'internet explorer':
+        alert("You're such an old buddy")
+    break;
+    case 'google chrome':
+    case 'microsoft edge':
+    case 'duck duck go':
+        alert("Awesome!")
+    break;
+    default:
+        alert('You must be really concerned with privacy to choose brave!')
+    
+}
