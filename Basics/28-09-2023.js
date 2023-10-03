@@ -41,3 +41,9 @@ switch (browser) {
         alert('You must be really concerned with privacy to choose brave!')
     
 }
+
+// Ternary Operator
+
+let currentYear = parseInt(prompt("What year is this?"));
+
+currentYear === 2023 ? alert("correct!") : alert("Are you kidding me?");
